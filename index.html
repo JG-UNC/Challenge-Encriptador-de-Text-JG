@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Challenge I: Encriptador</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="sup"></div>
+  <h1 class="titulo">ENCRIPTADOR DE TEXTO</h1>
+  <br><br>
+
+  <main class="main">
+    <section class="form box">
+      <label for="input-texto" class="lab">Solo letras minúsculas, sin acento</label>
+      <textarea class="text-input" id="input-texto" placeholder="Ingrese el texto aquí"></textarea>
+      <button class="btn" id="btn-encriptar">Encriptar!</button>
+      <button class="btn" id="btn-desencriptar">Desencriptar!</button>
+    </section>
+
+    <section class="msg box">
+      <label for="msg" class="lab">Mensaje Encriptado</label>
+      <textarea class="text-input" id="msg" readonly placeholder="El resultado aparecerá aquí..."></textarea>
+      <button class="btn" id="btn-copy">Copiar</button>
+    </section>
+  </main>
+
+  <footer>
+    <p class="pie">Designed by Guillen Jonathan Eduardo @2024</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
